@@ -59,7 +59,7 @@
 - Strengthened application security by 90% through layered authentication
 - Implemented encrypted API endpoints and comprehensive audit logging
 
-### 🏥 [CareBridge](https://github.com/1-RoushanKumar/CareBridge)
+### 🏥 [CareBridge](https://github.com/1-RoushanKumar/CareBridge-Microservices-Patient-Management-Platform)
 **Containerized microservices healthcare management system**  
 *Tech Stack: Java, Spring Boot, PostgreSQL, Docker, Kafka*
 - Architected 7+ microservices with API Gateway and Spring Security
