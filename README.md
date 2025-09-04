@@ -45,26 +45,33 @@
 
 ## 📌 Featured Projects
 
-### 🏫 [CampusCore](https://github.com/1-RoushanKumar/CampusCore)
-**Full-stack educational platform serving 500+ students and 50+ educators**  
-*Tech Stack: Spring Boot, React.js, MySQL, JWT, Spring Security*
-- Implemented JWT-based authentication with role-specific access for 4 user types
-- Built comprehensive admin console with extensive CRUD operations
-- Developed educator dashboards with analytics and personalized student/parent views
+🏥 CareBridge
+Containerized microservices healthcare management system
+Apr 2025 – Jul 2025
+Tech Stack: Java, Spring Boot, Spring Security, PostgreSQL, Docker, Kafka
 
-### 🔒 [SafeScribe](https://github.com/1-RoushanKumar/SafeScribe)
-**Secure note-taking application with multi-layered authentication**  
-*Tech Stack: Java, Spring Boot, Spring Security, MySQL, React*
-- Integrated JWT, OAuth2, and 2FA via Google Authenticator
-- Strengthened application security by 90% through layered authentication
-- Implemented encrypted API endpoints and comprehensive audit logging
+Developed containerized microservices healthcare system with 6 services (Auth, Patient, Doctor, Appointment, Notification, Billing), API Gateway, and 30+ secured REST endpoints (Spring Security+JWT)
+Implemented Kafka event-driven architecture for cross-service communication, significantly improving system responsiveness and ensuring data consistency across patient, appointment, and billing workflows
+Built automated appointment booking system with real-time slot validation, conflict resolution, and integrated patient-billing synchronization to eliminate booking errors and data inconsistencies
+Created notification service with email integration for automated appointment confirmations, rescheduling, and cancellation alerts to enhance patient communication
 
-### 🏥 [CareBridge](https://github.com/1-RoushanKumar/CareBridge-Microservices-Patient-Management-Platform)
-**Containerized microservices healthcare management system**  
-*Tech Stack: Java, Spring Boot, PostgreSQL, Docker, Kafka*
-- Architected 7+ microservices with API Gateway and Spring Security
-- Implemented Kafka-based asynchronous communication, improving responsiveness by 35%
-- Reduced appointment booking errors through real-time validation
+🔒 SafeScribe
+Secure note-taking application with multi-layered authentication
+Apr 2025 – Jun 2025
+Tech Stack: Java, Spring Boot, Spring Security, MySQL, React
+
+Designed secure note-taking application with multi-layered authentication using JWT, OAuth2, and Google Authenticator-based 2FA for enterprise-grade security
+Built encrypted REST APIs for note CRUD operations and integrated AI features for contextual suggestions, summarization, and translation capabilities
+Implemented comprehensive security architecture through layered authentication, encrypted session handling, and detailed audit logging to protect sensitive user data
+
+🏫 CampusCore
+Full-stack academic platform supporting 500+ students and 50+ educators
+Jun 2025 – Jul 2025
+Tech Stack: Spring Boot, React.js, MySQL, JWT, Spring Security
+
+Developed full-stack academic platform with scalable architecture supporting multiple user roles including admins, educators, students, and parents with real-time tracking capabilities
+Implemented JWT authentication with Spring Security and built comprehensive admin console for streamlined user management, class creation, and content operations
+Created educator dashboards with advanced analytics and personalized student/parent portals featuring automated weekly reports to boost engagement and academic transparency
 
 ---
 
