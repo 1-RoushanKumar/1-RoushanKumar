@@ -1,14 +1,14 @@
 # Hi 👋, I'm Roushan Kumar
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Java+Spring+Boot+Developer;Problem+Solver;Always+Learning!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Java+Spring+Boot+Developer;Microservices+Architect;Always+Learning!" alt="Typing SVG" />
 </div>
 
 <h3 align="center">Passionate Full Stack Developer | Spring Boot & React Enthusiast</h3>
 
 <p align="center">
-  🎓 Pursuing Master's in Computer Applications at <strong>NIT Raipur</strong><br/>
-  💻 Currently focused on mastering <strong>Spring Boot</strong> and microservices architecture<br/>
+  🎓 Pursuing Master's in Computer Applications at <strong>NIT Raipur</strong> (CPI: 8.42)<br/>
+  💻 Currently focused on mastering <strong>Spring Boot</strong>, microservices, and AI-integrated applications<br/>
   🌟 Always eager to learn, collaborate, and build impactful web applications
 </p>
 
@@ -24,8 +24,8 @@
 ## 🧠 About Me
 
 - 🚀 Passionate about **full-stack web development** with Spring Boot and React
-- 🌱 Currently exploring **microservices architecture** and **containerization with Docker**
-- 💬 Ask me about **Java, Spring Boot, Spring Security, React, or RESTful APIs**
+- 🌱 Currently exploring **microservices architecture**, **Spring AI**, and **containerization with Docker**
+- 💬 Ask me about **Java, Spring Boot, Spring Security, React, RESTful APIs, or AI-integrated backends**
 - 📚 Strong foundation in **DSA, OOP, Database Management, and System Design**
 
 ---
@@ -33,66 +33,73 @@
 ## 🛠 Languages & Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,js,react,mysql,mongodb,docker,kafka,git,github,postman,vscode,tailwind,html,css" />
+  <img src="https://skillicons.dev/icons?i=java,spring,js,react,mysql,docker,kafka,redis,git,github,postman,vscode,html,css,python," />
 </p>
 
-**Backend:** Java, Spring Boot, Spring Security, REST APIs, Microservices  
+**Backend:** Java, Spring Boot, Spring Security, Spring AI, REST APIs, Microservices, JWT, OAuth2  
 **Frontend:** React.js, HTML5, CSS, Tailwind CSS, JavaScript  
-**Database:** MySQL, PostgreSQL, MongoDB  
-**Tools:** Docker, Git, GitHub, Postman, IntelliJ IDEA, VSCode
+**Database:** MySQL, MSSQL, PostgreSQL  
+**Tools:** Docker, Redis, Kafka, Git, GitHub, Postman, IntelliJ IDEA, VSCode  
+**Languages:** Java, SQL, Python
 
 ---
 
 ## 📌 Featured Projects
 
-🏥 CareBridge
-Containerized microservices healthcare management system
-Apr 2025 – Jul 2025
-Tech Stack: Java, Spring Boot, Spring Security, PostgreSQL, Docker, Kafka
+### 🏥 CareBridge
+> Containerized microservices healthcare management system  
+> **Tech Stack:** Java, Spring Boot, Spring Security, PostgreSQL, Docker, Kafka
 
-Developed containerized microservices healthcare system with 6 services (Auth, Patient, Doctor, Appointment, Notification, Billing), API Gateway, and 30+ secured REST endpoints (Spring Security+JWT)
-Implemented Kafka event-driven architecture for cross-service communication, significantly improving system responsiveness and ensuring data consistency across patient, appointment, and billing workflows
-Built automated appointment booking system with real-time slot validation, conflict resolution, and integrated patient-billing synchronization to eliminate booking errors and data inconsistencies
-Created notification service with email integration for automated appointment confirmations, rescheduling, and cancellation alerts to enhance patient communication
-
-🔒 SafeScribe
-Secure note-taking application with multi-layered authentication
-Apr 2025 – Jun 2025
-Tech Stack: Java, Spring Boot, Spring Security, MySQL, React
-
-Designed secure note-taking application with multi-layered authentication using JWT, OAuth2, and Google Authenticator-based 2FA for enterprise-grade security
-Built encrypted REST APIs for note CRUD operations and integrated AI features for contextual suggestions, summarization, and translation capabilities
-Implemented comprehensive security architecture through layered authentication, encrypted session handling, and detailed audit logging to protect sensitive user data
-
-🏫 CampusCore
-Full-stack academic platform supporting 500+ students and 50+ educators
-Jun 2025 – Jul 2025
-Tech Stack: Spring Boot, React.js, MySQL, JWT, Spring Security
-
-Developed full-stack academic platform with scalable architecture supporting multiple user roles including admins, educators, students, and parents with real-time tracking capabilities
-Implemented JWT authentication with Spring Security and built comprehensive admin console for streamlined user management, class creation, and content operations
-Created educator dashboards with advanced analytics and personalized student/parent portals featuring automated weekly reports to boost engagement and academic transparency
+- Developed microservices using Spring Boot and Docker with **6 independent services**, 1 API Gateway, and **30+ secured REST endpoints** implementing role-based access control (Spring Security + JWT)
+- Engineered Apache Kafka–based event-driven architecture enabling asynchronous communication across patient, appointment, billing, and notification workflows, ensuring real-time data consistency
+- Built intelligent appointment booking system supporting real-time slot validation and conflict resolution, **eliminating 100% double-bookings** through WebClient-based inter-service synchronization
+- Developed event-driven notification service consuming Kafka topics to automate appointment alerts via MailHog, reducing manual coordination
 
 ---
 
-## 🏆 Achievements
+### 🔒 SafeScribe
+> Secure note-taking application with multi-layered authentication  
+> **Tech Stack:** Java, Spring Boot, Spring Security, MySQL, React
 
-### 🧠 **Coding Achievements**
-- 🥇 **600+ problems solved** on LeetCode (Contest Rating: 1650+)
-- 🏅 **Global Rank 4313/26545** in LeetCode Biweekly Contest 153
-- 📚 **150+ problems solved** on GeeksforGeeks
+- Designed and developed secure note-taking platform with **JWT-based authentication, OAuth2 (Google), and Google Authenticator-based 2FA**, securing 100% of user sessions
+- Built REST APIs for encrypted note CRUD operations and integrated **Grok AI** for summarization, translation, contextual suggestions, and AI-assisted content insights
+- Implemented role-based access control (RBAC) with Spring Security, secure session handling, admin dashboard, and comprehensive audit logging backed by MySQL
+
+---
+
+### 🤖 AI Support Desk
+> Full-stack AI-powered customer support platform  
+> **Tech Stack:** Java, Spring Boot, Spring AI, PostgreSQL, Groq AI, React, Docker
+
+- Architected a full-stack AI-powered customer support platform integrating **Groq AI (LLM) via Spring AI** to deliver real-time intelligent responses to customer queries
+- Built a dual-role system with **automated ticket generation** — unresolved chats are escalated into support tickets routed to an admin dashboard, enabling end-to-end issue tracking and resolution
+- Implemented RBAC with Spring Security for Customer and Admin roles, persistent chat history with PostgreSQL, and **containerized the full application using Docker**
+
+---
+
+## 🏆 Achievements & Certifications
+
+### 🧠 Competitive Programming
+- 🥇 **900+ problems solved** on LeetCode
+- 🏅 **Global Rank 2354 / 35329** — LeetCode Weekly Contest 462
+- 🏅 **Global Rank 4313 / 26545** — LeetCode Biweekly Contest 153
+- 📚 **150+ problems solved** on GeeksforGeeks and Codeforce
+- 🎓 **All India Rank 598** in NIMCET 2023
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=1-RoushanKumar&show_icons=true&theme=tokyonight" alt="Roushan's GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=1-RoushanKumar&layout=compact&theme=tokyonight" alt="Top Languages" height="160"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=1-RoushanKumar&theme=tokyonight" alt="GitHub Profile Details"/>
 </p>
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=1-RoushanKumar&theme=tokyo-night" alt="GitHub Activity Graph"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=1-RoushanKumar&theme=tokyonight" alt="GitHub Stats" height="160"/>
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=1-RoushanKumar&theme=tokyonight" alt="Top Languages" height="160"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=1-RoushanKumar&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies"/>
 </p>
 
 ---
@@ -103,7 +110,6 @@ Created educator dashboards with advanced analytics and personalized student/par
 - 💼 LinkedIn: [linkedin.com/in/roushan-kumar-b2b79b282](https://linkedin.com/in/roushan-kumar-b2b79b282)
 - 🧑‍💻 GitHub: [github.com/1-RoushanKumar](https://github.com/1-RoushanKumar)
 - 🔢 LeetCode: [leetcode.com/u/rOushankumar1](https://leetcode.com/u/rOushankumar1)
-- 📱 Phone: +91-9523394131
 
 ---
 
